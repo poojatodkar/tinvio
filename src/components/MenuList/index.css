@@ -1,0 +1,15 @@
+.menu-list {
+    max-width: 81px;
+    width: 3%;
+    padding: 50px 10px;
+    background: #1D232A;
+    text-align: center;
+}
+
+.menu-list li {
+    padding-bottom: 23px;
+}
+
+.menu-list li:first-child {
+    padding-bottom: 31px;
+}

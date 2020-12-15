@@ -1,0 +1,53 @@
+.friend-list {
+    max-width: 361px;
+    width: 23%;
+    background: #242A31;
+}
+
+.friend-list .input-field {
+    padding: 23px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.friend-list .input-field input {
+    width: 75%;
+    max-width: 300px;
+    height: 34px;
+    padding: 0 20px 0 40px;
+    margin: 0 auto;
+    border: 1px solid #363D45;
+    border-radius: 20px;
+    display: block;
+    outline: 0;
+    background: #363D45;
+    box-shadow: none;
+}
+
+.friend-list ul {
+    min-width: 300px;
+}
+
+.friend-list ul li {
+    padding: 24px 24px 0;
+    align-items: center;
+}
+
+.friend-list ul li img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend-list .description {
+    width: 150px;
+}
+
+.friend-list .description p:last-child {
+    font-size: 14px;
+}
+
+.friend-list ul li p {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

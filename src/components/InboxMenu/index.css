@@ -1,0 +1,30 @@
+.inbox-menu {
+    max-width: 230px;
+    width: 15%;
+    background: #282E36;
+}
+
+.inbox-menu h2 {
+    padding: 31px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+.inbox-menu ul {
+    padding: 0 10px 20px;
+    font-size: 14px;
+}
+
+.inbox-menu ul li {
+    padding: 8px 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inbox-menu ul li:hover {
+    background-color: #404A53;
+}

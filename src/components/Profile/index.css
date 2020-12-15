@@ -1,0 +1,40 @@
+.profile {
+    max-width: 277px;
+    width: 19%;
+    border-right: 1px solid #eee;
+}
+
+.profile .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile h2 {
+    padding: 30px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile .description {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.profile .description .profile-img img {
+    border-radius: 50%;
+}
+
+.profile .description p.title {
+    color: #293037;
+    font-size: 20px;
+}
+
+.profile .description ul {
+    margin-top: 30px;
+}
+
+.profile .description ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+}
